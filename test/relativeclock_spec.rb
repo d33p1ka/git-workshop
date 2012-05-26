@@ -9,9 +9,10 @@ describe SingaporeRelativeClock do
 		@clock.timeDifferenceTo("Singapore").should === 0
 	end
 	
-	it "should raise an error if no data is entered"
+	#it "should raise an error if no data is entered" do
+		
 	
-	end
+	#end
 	
 	it "should return -2 for Sydney" do
 	 @clock.timeDifferenceTo("Sydney").should === -2
